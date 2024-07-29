@@ -38,14 +38,15 @@ body{
     font-style: normal;
     color: white;
     font-size: 2rem;
+    position: relative;
+    bottom: 10px;
   }
-#info{
+.infos{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
     font-size: 1.4rem;
-    float: right;
     position: relative;
     bottom: 190px;
     right: 50px;
@@ -87,4 +88,30 @@ h1 {
     height: 25px;
     width: 25px;
     margin-right: 5px;
+  }
+  .project-a>a{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  .project-b>a{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  #gitlink,#linkedinlink{
+    float: right;
+    color: white;
+  }
+  #linkedinlink{
+    position: relative;
+    left: 260px;
   }
